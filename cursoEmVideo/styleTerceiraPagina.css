@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+.quadrado {
+    display: inline-block; /*  um ao lado do outro + altura e largura */
+    border: 1px solid black;
+    text-align: center;
+    width: 200px; /* largura */
+    height: 200px; /* altura */
+}
+
+.quadrado:hover {
+    background-color:yellow;
+}
+
+a.quadrado {
+    display: inline-block;
+}
+
+div > p { /* p filho de uma  div*/
+    display:  none; /* não mostre nada. sumir */
+}
+
+div:hover > p {
+    display: block; /* mostrar */
+    color: white;
+    background-color: red;
+    width: 300px;
+    text-align: center;
+}
+
+div:hover {
+    color: brown;
+}
+
